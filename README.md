@@ -25,7 +25,8 @@ Create an env file to link your application to your machine's MySQL databases an
 
 ## Usage
 
-Serve the application different product information through Insomnia to modify the database, adding, changing, deleting products.
+Serve the application different product information through Insomnia to modify the database, adding, changing, deleting products. Here is an screenshot of Insomnia handling a GET request:
+![screenshot of e-commerce back end routes](screenshot.png)
 
 ## License
 
@@ -37,7 +38,7 @@ Contributor Covenant, as described at [the Contributor Covenant website](https:/
 
 ## Tests
 
-See a walkthrough video here:
+Watch this [walkthrough video](https://drive.google.com/file/d/1wzs9KDZR6fAbTdUa930HgVHO122sRnt7/view) for a testing demonstration.
 
 ## Questions
 

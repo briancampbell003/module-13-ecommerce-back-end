@@ -11,7 +11,8 @@ router.get('/', async (req, res) => {
       include: [{ model: Product,
         through: ProductTag,
         as: "tagged_products",
-        attributes: ["id", "product_name"] }]
+        attributes: ["id", "product_name"]
+      }]
     });
     res.status(200).json(tagData);
   } catch (err) {
